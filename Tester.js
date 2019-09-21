@@ -8,8 +8,9 @@ admin.initializeApp({
 
 let db = admin.firestore();
 
+// See Google Firebase docs
+// Test code to change data inside Google Firebase
 let docRef = db.collection('districts').doc('Seattle');
-
 docRef.update({
         population: "1"
 }).then(function() { 
