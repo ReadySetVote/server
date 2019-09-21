@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ReadySetVote/server/issues"
   },
-  "homepage": "https://github.com/ReadySetVote/server#readme"
+  "homepage": "https://github.com/ReadySetVote/server#readme",
+  "dependencies": {
+    "firebase-admin": "^8.6.0"
+  }
 }
