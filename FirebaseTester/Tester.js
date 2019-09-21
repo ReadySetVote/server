@@ -1,5 +1,5 @@
 var admin = require("firebase-admin");
-var serviceAccount = require("../dbtesting/FirebaseCredentials");
+var serviceAccount = require("FirebaseCredentials");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
